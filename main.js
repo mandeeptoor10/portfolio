@@ -106,3 +106,12 @@ function submitForm(event) {
   } else {
       messageError.textContent = "";
   }
+// JavaScript code for the data analysis portfolio
+
+// Function to display a greeting message in the console
+function greet() {
+  console.log("Welcome to the Data Analysis Portfolio!");
+}
+
+// Call the greet function on page load
+window.addEventListener("DOMContentLoaded", greet);
