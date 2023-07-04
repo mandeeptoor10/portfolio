@@ -1,0 +1,267 @@
+/* header */
+header {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+
+/* header ends */
+
+/* Styling for the hero section */
+.hero {
+    position: relative;
+    height: 400px;
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('pexels-quintin-gellar-313782.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+}
+
+.hero-content {
+    text-align: center;
+    color: #000000;
+    z-index: 1;
+}
+
+.hero-content h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 20px;
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Styling for the hero section ends*/
+
+
+/* Styling for the data analysis section */
+.data-analysis {
+    background-color: #f5f5f5;
+    padding: 40px;
+}
+
+.section-title {
+    text-align: center;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.profile {
+    width: 250px;
+    text-align: center;
+    margin-right: 40px;
+}
+
+.profile-info {
+    margin-top: 20px;
+}
+
+.profile-info h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.profile-info p {
+    margin: 0;
+    color: #666;
+}
+
+.skills, .certifications {
+    flex: 1;
+}
+
+.skills h4, .certifications h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.skills ul, .certifications ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.skills li, .certifications li {
+    margin-bottom: 5px;
+}
+
+.profile-image {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.profile-image img {
+    border-radius: 50%;
+}
+
+/* Styling for the data analysis section ends */
+
+
+/* Styling for the projects section */
+.projects {
+    padding: 40px;
+}
+
+.projects h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.project h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.project a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.project a:hover {
+    background-color: #555;
+}
+/* Styling for the projects section ends*/
+
+/* Styling for the contact section */
+.contact {
+    padding: 40px;
+}
+
+.contact h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form div {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
